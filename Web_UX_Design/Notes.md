@@ -23,3 +23,20 @@ Psychological principles:
 - establish trust, demonstrate humanity and empathy
 - tell a story (use real people, real images, etc.)
 - performance impacts conversion
+
+Content:
+- Who are you users? Their use cases, problems, tasks (Users journey)
+- Value proposition - promise or value, eg. solving particular problem
+- What benefit customer can expect
+- Why user should choose this products vs. competing products
+-> Should correlate with user profile
+- Strapline - description
+- Benefits - how the product helps audience
+- Delivery - how you will deliver the features
+
+Writing a copy:
+- Content hierarchy
+- Compelling headline
+- Scannability of a content
+- Should sound like human
+- Simplify the users choice
