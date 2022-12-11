@@ -40,3 +40,31 @@ Writing a copy:
 - Scannability of a content
 - Should sound like human
 - Simplify the users choice
+- Reflex the mental model of a potential audience
+
+Design:
+- Leading the users attention:
+  - Simplify
+    - Is it possible to remove something?
+    - Can you hide something?
+    - Maybe you can shrink it?
+  - Consider the page flow
+    - step 1, step 2, step 3, etc.
+  - Consider how people read
+    - f-shaped pattern
+    - length and height of the text line
+  - Use imagery and shapes
+    - use images to break up the text
+    - use shapes to draw attention
+    - take into account the eye motion
+- Calls to actions:
+  - simple, clear and descriptive (eg. "Buy now")
+  - do not fixate on fold (call to action can be anywhere)
+  - empty space around draws attention
+  - colors, size and animation can be used to draw attention as well
+  - break complex actions into steps
+  - consider the post click experience
+- Engaging users with aesthetics:
+  - perception
+  - humor
+  - halo effect
