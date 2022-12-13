@@ -68,3 +68,29 @@ Design:
   - perception
   - humor
   - halo effect
+
+Testing and optimizing for conversion:
+- testing early reduces mistakes and costs
+- testing impoves word of mouth
+- it reduces time consuming debates
+
+What to test:
+- brand keywords
+- visual hierarchy
+- calls to action
+- content
+
+Usability testing:
+- talk to your users
+- exit intent surveys
+- five second test
+- first click test
+- brand keyword survey
+- eye tracking
+
+Post-launch optimization:
+- find an issue
+- diagnose the exact problem
+- test potential solutions
+- exit pages, bounce pages, etc.
+- AB-testing
