@@ -1,0 +1,1 @@
+Notes and exercises for the course [CSS Animations and Transitions](https://frontendmasters.com/courses/css-animations/) by [David Khourshid](https://frontendmasters.com/teachers/david-khourshid/).
