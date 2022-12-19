@@ -1,0 +1,78 @@
+@import '../styles/base.scss';
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 'figure';
+  grid-column-gap: 2rem;
+  width: 20vw;
+  aspect-ratio: 1;
+  border: 1px solid;
+
+  &[data-state='collapsed'] {
+    .ui-content {
+      display: none;
+    }
+  }
+
+  &[data-state='expanded'] {
+    padding: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'figure content';
+    aspect-ratio: 2;
+    width: 70vw;
+  }
+}
+
+.ui-content {
+  grid-area: content;
+  animation: content 0.3s 0.3s both;
+}
+
+@keyframes content {
+  from {
+    opacity: 0;
+    transform: translateX(-2rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.ui-figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom right, #124269, #309aef);
+    transform-origin: top left;
+  }
+
+  // Add invert styles here to :before
+  // ...
+
+  // Add play styles here to :before
+  // ...
+
+  > .ui-caption {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+}

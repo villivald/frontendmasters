@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>States</title>
+    <link rel="stylesheet" href="style.scss" />
+  </head>
+  <body>
+    <form class="ui-form" data-state="subscribe">
+      <input class="ui-input" type="email" placeholder="your@email.com" />
+      <button class="ui-button" type="button" onclick="setState('subscribing')">
+        <span>Subscribe</span>
+        <span>Subscribing</span>
+        <span>Success!</span>
+        <span>Error</span>
+      </button>
+    </form>
+  </body>
+  <script>
+    const form = document.querySelector('.ui-form');
+
+    // ...
+  </script>
+</html>

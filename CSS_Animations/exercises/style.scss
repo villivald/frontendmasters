@@ -1,0 +1,56 @@
+@import "./styles/base.scss";
+
+:root {
+  --primary-color: #002855;
+  --fg-color: #fff;
+  --link-color: rgb(225, 225, 225);
+  --duration: 10s;
+  --easing: cubic-bezier(0.5, 0.1, 0.5, 1);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 5vmin;
+  background-color: var(--primary-color);
+  color: var(--fg-color, white);
+}
+
+a {
+  color: var(--link-color);
+}
+
+h1 {
+  margin: 0;
+}
+
+small {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+ul {
+  margin: 1rem 0;
+}
+
+.ball {
+  height: 5vmin;
+  width: 5vmin;
+  border-radius: 50%;
+  background: radial-gradient(circle at bottom right, #fb2324, #fe932a);
+  animation: slide-right var(--duration) var(--easing) infinite;
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(0) scale(1) translateY(0);
+  }
+  30% {
+    transform: translateX(10vw) scale(1.5) translateY(5vh);
+  }
+  60% {
+    transform: translateX(20vw) scale(1.25) translateY(-5vh);
+  }
+  100% {
+    transform: translateX(30vw) scale(1) translateY(0);
+  }
+}
