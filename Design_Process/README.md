@@ -1,0 +1,1 @@
+Notes for the course [Mastering the Design Process](https://frontendmasters.com/courses/design-process/) by [Paul Boag](https://frontendmasters.com/teachers/paul-boag/).
