@@ -1,4 +1,4 @@
-@import '../styles/base.scss';
+@import "../styles/base.scss";
 
 :root {
   --color-gray: #8c97b7;
@@ -25,9 +25,10 @@ body {
   grid-template-columns: 1fr auto;
   grid-template-rows: 1fr;
   grid-column-gap: 1rem;
-  grid-template-areas: 'input button';
+  grid-template-areas: "input button";
 
-  // Add an animation here
+  //animation: slide-up var(--animation-duration) var(--transition-easing);
+  animation: shake var(--animation-duration) var(--transition-easing);
 
   --color: var(--color-gray);
   &:focus-within {
@@ -71,9 +72,33 @@ body {
 }
 
 @keyframes slide-up {
-  // Add keyframes here
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 @keyframes shake {
-  // Add a shake animation here
+  from,
+  to {
+    transform: none;
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translate3d(-1px, 2px, 2px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translate3d(2px, -1px, 1px);
+  }
 }

@@ -36,8 +36,16 @@ ul {
   height: 5vmin;
   width: 5vmin;
   border-radius: 50%;
-  background: radial-gradient(circle at bottom right, #fb2324, #fe932a);
-  animation: slide-right var(--duration) var(--easing) infinite;
+  background: green;
+  //animation: slide-right var(--duration) var(--easing) infinite;
+  //transition: all 2s ease-in-out;
+  animation: move-like-a-square var(--duration) var(--easing) infinite;
+}
+
+.ball:hover {
+  transition: all 1s ease-in-out;
+  background: #fb2324;
+  transform: scale(2);
 }
 
 @keyframes slide-right {
@@ -52,5 +60,23 @@ ul {
   }
   100% {
     transform: translateX(30vw) scale(1) translateY(0);
+  }
+}
+
+@keyframes move-like-a-square {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: translateX(20vw);
+  }
+  50% {
+    transform: translateX(20vw) translateY(20vh);
+  }
+  75% {
+    transform: translateY(20vh);
+  }
+  100% {
+    transform: none;
   }
 }
