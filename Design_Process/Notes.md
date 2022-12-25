@@ -63,3 +63,24 @@ Live phase
 - At this point it is possible to observe user behavior and adjust the design accordingly (Microsoft Clarity)
 - Analytics, A/B testing, heatmaps, session recording, usability testing, etc.
 - → Working product with potential for further improvements
+
+## Producing initial design
+
+- Make client to contribute to the design process
+- Separate aesthetics and structure
+- Work with real content (not lorem ipsum)
+- Start with navigation
+- Identify the content, structure it, and then draft it
+- Prioritize & organize content (hierarchy)
+- Map content to the structure
+- Chunk content into smaller pieces - content blocks
+- Wireframing critical pages - greyscale wireframes
+- User attention point exercise - identify the most important elements on the page
+- Wireframing tools for early stages - balsamiq, whimsical, etc.
+- 5-second test
+  - what this company does?
+  - is the page appealing?
+  - what do you remember?
+- first click test
+  - investigation of a heatmap
+  - is navigation intuitive?
