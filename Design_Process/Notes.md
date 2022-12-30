@@ -84,3 +84,33 @@ Live phase
 - first click test
   - investigation of a heatmap
   - is navigation intuitive?
+
+## Design style & aesthetics
+
+- Company style guide - colors, fonts, etc. It should be used in the first place.
+- Famous person exercise - identify the person who would use the product or who represents the company (helps to understand the values of the company)
+- Reseption room exercise - imagine the reception room of the company incl. furniture, interier, colors, etc.
+- Brand deck exercise - participants can organize the cards into groups and then discuss the results
+- Create stile tiles with stakeholders, some tools that can help:
+  - colors - https://picular.co/
+  - google fonts
+  - google images
+  - dribble
+- Test your style tiles with users from the target audience
+- Create a high fidelity mockup → Figma → Sanity check (https://attentioninsight.com/)
+
+![Design process checklist](./images/checklist.png)
+
+## Presenting the design
+
+- Involve stakeholders in the design process before presenting the design as much as possible
+- Identify possible objections and prepare answers
+- Speaking to stakeholders individually in advance
+- Short video presentation of the design (examples of the design process, real use cases, etc.) - https://www.loom.com/
+- Decisions, collaboration, testing - main points of the presentation to focus on
+- Do not ask for immediate feedback, leave time for reflection, ask if there are any questions
+- Ask own questions to the stakeholders
+- Email post-presentation summary
+- Control the narrative (be the only point of contact and feedback)
+
+![Presentation questions](./images/questions.png)
