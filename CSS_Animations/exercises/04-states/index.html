@@ -11,16 +11,42 @@
     <form class="ui-form" data-state="subscribe">
       <input class="ui-input" type="email" placeholder="your@email.com" />
       <button class="ui-button" type="button" onclick="setState('subscribing')">
-        <span>Subscribe</span>
-        <span>Subscribing</span>
-        <span>Success!</span>
-        <span>Error</span>
+        <span data-show="subscribe">Subscribe</span>
+        <span data-show="subscribing">Subscribing</span>
+        <span data-show="success">Success!</span>
+        <span data-show="error">Error</span>
       </button>
     </form>
   </body>
   <script>
-    const form = document.querySelector('.ui-form');
+    const formEl = document.querySelector(".ui-form");
 
-    // ...
+    function setState(state) {
+      formEl.dataset.state = state;
+
+      const activeEls = document.querySelectorAll("[data-active]");
+
+      activeEls.forEach((el) => {
+        delete el.dataset.active;
+      });
+
+      const shownEls = document.querySelectorAll(`[data-show="${state}"]`);
+
+      shownEls.forEach((el) => {
+        el.dataset.active = true;
+      });
+
+      if (state === "subscribing") {
+        setTimeout(() => {
+          if (Math.random() > 0.5) {
+            setState("success");
+          } else {
+            setState("error");
+          }
+        }, 500);
+      }
+    }
+
+    setState("subscribe");
   </script>
 </html>

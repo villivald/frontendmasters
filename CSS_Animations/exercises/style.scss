@@ -60,6 +60,26 @@ ul {
   transform: scale(2);
 }
 
+.button {
+  appearance: none;
+  background: #fb2324;
+  color: #fff;
+  font-weight: bold;
+  padding: 2rem 3rem;
+  border: none;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background: #fff;
+  color: #fb2324;
+}
+
+.button:active {
+  transition-duration: 0.1s;
+  transform: scale(0.9);
+}
+
 @keyframes move-right {
   0% {
     transform: translateX(0);

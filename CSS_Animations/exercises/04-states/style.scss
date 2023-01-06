@@ -1,4 +1,4 @@
-@import '../styles/base.scss';
+@import "../styles/base.scss";
 
 :root {
   --color-gray: #8c97b7;
@@ -25,7 +25,7 @@ body {
   grid-template-columns: 1fr auto;
   grid-template-rows: 1fr;
   grid-column-gap: 1rem;
-  grid-template-areas: 'input button';
+  grid-template-areas: "input button";
   transition: all var(--transition-duration) var(--transition-easing);
   will-change: transform;
 
@@ -34,16 +34,18 @@ body {
     --color: var(--color-blue);
   }
 
-  &[data-state='subscribe'] {
-    // Add an animation here
+  &[data-state="subscribe"] {
+    animation: slide-up 1s both;
   }
 
-  &[data-state='success'] {
-    // Change the color and/or add an animation here
+  &[data-state="success"] {
+    --color: var(--color-green);
+    animation: good-job 1s both;
   }
 
-  &[data-state='error'] {
-    // Change the color and/or add an animation here
+  &[data-state="error"] {
+    --color: red;
+    animation: shake 1s both;
   }
 
   > .ui-input,
@@ -120,5 +122,20 @@ body {
   from,
   to {
     transform: none;
+  }
+}
+
+@keyframes good-job {
+  from,
+  to {
+    transform: none;
+  }
+
+  50% {
+    transform: translateY(-100%);
+  }
+
+  90% {
+    transform: translateY(0) scaleY(0.8);
   }
 }

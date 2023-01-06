@@ -17,7 +17,7 @@
 .ball:hover {
   /* transition will apply on hover */
   transition: all 2s 0.5s linear;
-  /* cat be used to override the line above - transition will apply only to the transform property:
+  /* can be used to override the line above - transition will apply only to the transform property:
   transition-property: transform; */
   background: blue;
   transform: scale(2);
