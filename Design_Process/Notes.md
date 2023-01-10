@@ -91,7 +91,7 @@ Live phase
 - Famous person exercise - identify the person who would use the product or who represents the company (helps to understand the values of the company)
 - Reseption room exercise - imagine the reception room of the company incl. furniture, interier, colors, etc.
 - Brand deck exercise - participants can organize the cards into groups and then discuss the results
-- Create stile tiles with stakeholders, some tools that can help:
+- Create style tiles with stakeholders, some tools that can help:
   - colors - https://picular.co/
   - google fonts
   - google images
@@ -114,3 +114,37 @@ Live phase
 - Control the narrative (be the only point of contact and feedback)
 
 ![Presentation questions](./images/questions.png)
+
+## Working on a design
+
+- Keep developer in mind while working on a design
+- Performance vs Perfect pixel design
+- Reducing decorative elements, fonts, etc.
+- Work collaboratively on interactive or visual elements - animation, accordions, carousels, etc. Budget & possibilities vs expectations.
+
+## Creating a design system
+
+- Start with a design system as soon as possible
+- Styles:
+  - typography
+  - color palette
+- Elements
+  - buttons, fields, icons
+  - navigation elements
+- Components
+  - header, footer, boxes, etc.
+- Should evolve over time
+- Could also content such as:
+  - UI components
+  - Content guide
+  - Design principles
+  - Service manual
+
+## Post launch optimization
+
+- Should prepare early for post-launch optimization
+- An idea list - post-launch ideas, features and improvements
+- Identify drop out points - where users leave the website
+- Identify the problem with underperforming pages → solution → test solution
+  - GA - bounce rate, exit pages + Heat maps, session recordings & eye tracking, rage clicking, on-exit surveys, etc.
+- Launch and repeat
