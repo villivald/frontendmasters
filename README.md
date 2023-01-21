@@ -6,3 +6,4 @@
 - ### [Mastering the Design Process](https://github.com/villivald/frontendmasters/tree/main/Design_Process)
 - ### [Design Systems with React & Storybook](https://github.com/villivald/frontendmasters/tree/main/DesignSystems_Storybook)
 - ### [Complete Intro to SQL & PostgreSQL](https://github.com/villivald/frontendmasters/tree/main/SQL_PostgreSQL)
+- ### [Responsive Web Typography](https://github.com/villivald/frontendmasters/tree/main/Typography)
