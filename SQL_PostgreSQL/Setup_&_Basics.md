@@ -83,3 +83,24 @@ SELECT * FROM ingredients WHERE title ILIKE 'Pota%'; -- show all rows where titl
 SELECT * FROM ingredients WHERE CONCAT(title, type) ILIKE '%fruit'; -- show all rows where title or type contains fruit (case insensitive)
 SELECT * FROM ingredients WHERE title LIKE 'ch_rry'; -- show all rows where title contains ch and one character and rry
 ```
+
+## Connecting to a PostgreSQL database
+
+```js
+const pg = require("pg");
+const pool = new pg.Pool({
+  user: "postgres",
+  host: "localhost",
+  database: "recipeguru",
+  password: "lol",
+  port: 5432,
+});
+
+const { rows } = await pool.query(`SELECT * FROM recipes`);
+
+const { id } = req.query;
+
+const { rows2 } = await pool.query(`SELECT * FROM ingredients WHERE id=$1`, [
+  id,
+]);
+```
