@@ -4,8 +4,10 @@
 
 ```bash
 docker run -e POSTGRES_PASSWORD=lol --name=pg --rm -d -p 5432:5432 postgres:14 # run postgres with password lol, name it pg, remove it when stopped, run in background, map port 5432 to 5432
+docker run -e POSTGRES_PASSWORD=lol --name=sql -p 5432:5432 -d --rm btholt/complete-intro-to-sql
 
 docker exec -u postgres -it pg psql # run psql in container pg as user postgres
+docker exec -u postgres -it sql psql
 ```
 
 ### psql commands

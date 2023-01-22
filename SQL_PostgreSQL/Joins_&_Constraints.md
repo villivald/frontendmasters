@@ -153,3 +153,34 @@ ON
 --  blueberry        | blueberry.jpg    | fruit           | empanada     | ugh so good |   2 |   5
 --  eggplant         | eggplant.jpg     | vegetable       | empanada     | ugh so good |   2 |  13
 ```
+
+### Check
+
+```sql
+ALTER TABLE ingredients
+ADD CONSTRAINT type_enums
+CHECK (type IN ('meat', 'vegetable', 'fruit', 'other'));
+
+INSERT INTO ingredients (title, image, type)
+VALUES ('lol', 'wat.svg', 'not a type!!!');
+
+-- ERROR:  new row for relation "ingredients" violates check constraint "type_enums"
+-- DETAIL:  Failing row contains (31, lol, wat.svg, not a type!!!).
+```
+
+### Distinct
+
+```sql
+SELECT DISTINCT type FROM ingredients; -- returns only unique values
+```
+
+### Coalesce
+
+```sql
+SELECT DISTINCT ON (r.recipe_id)
+r.title,
+COALESCE(rp.url, 'deafult.jpg') AS URL -- sets default value if NULL
+FROM recipes r
+LEFT JOIN recipes_photos rp
+ON r.recipe_id = rp.recipe_id;
+```
