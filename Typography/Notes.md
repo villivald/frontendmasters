@@ -42,3 +42,37 @@ Info on variable fonts:
 - [A Variable Fonts Primer](https://variablefonts.io/)
 - [Typenetwork](https://www.typenetwork.com/brochure/opentype-font-variations/#introduction)
 - [Monotype](https://www.monotype.com/resources/expertise/variable-fonts-101)
+
+## Importing fonts
+
+For fonts hosted on own server:
+
+```css
+@font-face {
+  font-family: "MyWebFont";
+  font-style: normal;
+  font-weight: normal;
+  src: url("myfont.woff2") format("woff2"), url("myfont.woff") format("woff");
+  font-display: swap;
+}
+
+body {
+  font-family: "MyWebFont", Fallback, sans-serif;
+}
+```
+
+For fonts hosted on Google Fonts (or other CDN):
+
+```css
+@import url(//fonts.googleapis.com/css?family=Open+Sans); /* imports whole font family */
+
+body {
+  font-family: "Open Sans", Fallback, sans-serif;
+}
+```
+
+## Breakpoints
+
+Example of setting breakpoints for font sizes:
+![Breakpoints](/images/breakpoints.png)
+![Media queries](/images/media_queries.png)
