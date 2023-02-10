@@ -2,11 +2,11 @@
 
 ### Anatomy of Letterforms
 
-![Anatomy of Letterforms](/images/anatomy.png)
+![Anatomy of Letterforms](./images/anatomy.png)
 
 ### Type Styles & Classifications
 
-![Type Styles & Classifications](/images/type_styles.png)
+![Type Styles & Classifications](./images/type_styles.png)
 
 ## Tips & Tricks
 
@@ -29,7 +29,7 @@ font-variation-settings: "wght" 400, "wdth" 100, "ital" 0, "opsz" 12, "slnt" 0, 
   "CRSE" 70;
 ```
 
-![Variable font anatomy](/images/variable.png)
+![Variable font anatomy](./images/variable.png)
 
 Collections of variable fonts:
 
@@ -42,6 +42,10 @@ Info on variable fonts:
 - [A Variable Fonts Primer](https://variablefonts.io/)
 - [Typenetwork](https://www.typenetwork.com/brochure/opentype-font-variations/#introduction)
 - [Monotype](https://www.monotype.com/resources/expertise/variable-fonts-101)
+
+Check font features:
+
+- [https://wakamaifondue.com/](https://wakamaifondue.com/)
 
 ## Importing fonts
 
@@ -74,5 +78,5 @@ body {
 ## Breakpoints
 
 Example of setting breakpoints for font sizes:
-![Breakpoints](/images/breakpoints.png)
-![Media queries](/images/media_queries.png)
+![Breakpoints](./images/breakpoints.png)
+![Media queries](./images/media_queries.png)
