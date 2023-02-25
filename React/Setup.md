@@ -9,13 +9,15 @@
     "plugin:import/errors",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended",
+    "plugin:react-hooks/recommended",
     "prettier"
   ],
   "rules": {
     "react/prop-types": 0,
     "react/react-in-jsx-scope": 0
   },
-  "plugins": ["react", "import", "jsx-a11y", "prettier"],
+  "plugins": ["react", "import", "jsx-a11y", "prettier", "react-hooks"],
   "parserOptions": {
     "ecmaVersion": 2022,
     "sourceType": "module",
