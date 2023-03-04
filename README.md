@@ -9,3 +9,4 @@
 - #### [Responsive Web Typography](https://github.com/villivald/frontendmasters/tree/main/Typography)
 - #### [Testing Web Apps with Cypress](https://github.com/villivald/frontendmasters/tree/main/Testing_With_Cypress)
 - #### [Complete Intro to React & Intermediate React](https://github.com/villivald/frontendmasters/tree/main/React)
+- #### [Figma for Developers](https://github.com/villivald/frontendmasters/tree/main/Figma)
