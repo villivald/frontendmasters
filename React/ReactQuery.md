@@ -54,7 +54,19 @@ const fetchPerson = async ({ queryKey }) => {
   }
 
   return response.json();
-
-  export default fetchPerson;
 };
+
+export default fetchPerson;
+```
+
+**_useMutation_** can be used to update data on the server.
+
+```jsx
+import { useMutation } from "@tanstack/react-query";
+
+const [mutate, result] = useMutation(updatePerson, {
+  onSuccess: () => {
+    queryClient.invalidateQueries(["person", id]);
+  },
+});
 ```
