@@ -16,8 +16,6 @@
 - Cmd + . -> hide sidebars
 - Shift + R -> show rulers
 
-- Shift + A -> auto layout
-- Option + Cmd + K -> create component
 - Sizes can be set by typing `W 100 + 15` or `H 100 - 15` or `W 150%` or `X 150 * 2` or `Y 16 / 2`
 
 ## Plugins
@@ -43,4 +41,16 @@
 
 ![Auto Layout](./images/autolayout.png)
 
+- Shift + A -> auto layout
 - New items can be dragged into the layout and be automatically placed
+
+## Components
+
+- Option + Cmd + K -> create component
+- Components appear in the left sidebar in Assets panel
+- Reset all overrides
+
+## Variants
+
+![Variants 1](./images/variants1.png)
+![Variants 2](./images/variants2.png)
