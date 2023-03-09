@@ -54,3 +54,30 @@
 
 ![Variants 1](./images/variants1.png)
 ![Variants 2](./images/variants2.png)
+
+# Swapping components
+
+![Swapping components](./images/swapping.png)
+
+# Icons as components
+
+![Icons as components1](./images/icons1.png)
+![Icons as components2](./images/icons2.png)
+
+## Table
+
+![Tables](./images/table.png)
+
+# Dropdown menu
+
+![Dropdown menu](./images/dropdown.png)
+
+# Prototyping
+
+Animations, transitions and effects
+
+![Animations and effects](./images/animation.png)
+
+Scrolling
+
+![Scrolling](./images/scrolling.png)
