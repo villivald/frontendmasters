@@ -14,3 +14,19 @@
 Cypress inner tool can be used to help to get the selector of the element
 
 ![image](./images/selectors.png)
+
+## Cypress Studio
+
+cypress.config.js
+
+```js
+{
+  e2e: {
+    experimentalStudio: true;
+  }
+}
+```
+
+## CI
+
+[Docs](https://github.com/stevekinney/cypress/blob/main/lessons/Continuous%20Integration%20and%20Cypress%20Dashboard.md)
