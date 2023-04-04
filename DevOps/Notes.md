@@ -38,3 +38,6 @@ Pulumi is an automation tool for managing infrastructure. We can use it to creat
 - create an account (pulumi.com)
 - create a stack (aws or similar)
 - create a bucket (s3)
+- scale up the project (add more resources)
+
+# CI/CD
