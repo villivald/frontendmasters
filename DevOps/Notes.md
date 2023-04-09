@@ -41,3 +41,47 @@ Pulumi is an automation tool for managing infrastructure. We can use it to creat
 - scale up the project (add more resources)
 
 # CI/CD
+
+- Docker (image)
+- CircleCI (build & testing)
+
+**_index.ts_**
+
+![ci/cd](./images/ci.png)
+
+**_build.json_**
+
+```json
+{
+  "Name": "devops-course",
+  "ServiceType": "frontend",
+  "Dockerfile": {
+    "InstallCommand": "RUN npm install",
+    "PreInstallCommands": ["COPY myfile myfile"],
+    "PostInstallCommands": ["RUN echo 'hello world'"]
+  }
+}
+```
+
+-> npx ts-node --transpileOnly index.ts --config "./build.json"
+
+**_templates/Dockerfile_**
+
+```dockerfile
+FROM alpine:latest
+
+ENV SERVICE_NAME "{{ ServiceName }}"
+ENV SERVICE_TYPE "{{ ServiceType }}"
+
+{% for command Dockerfile.PreInstallCommands %}
+{{ command }}
+{% endfor %}
+
+RUN {{Dockerfile.InstallCommand}}
+
+{% for command Dockerfile.PostInstallCommands %}
+{{ command }}
+{% endfor %}
+
+RUN "/bin/bash"
+```
