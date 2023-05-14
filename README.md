@@ -10,3 +10,5 @@
 - #### [Testing Web Apps with Cypress](https://github.com/villivald/frontendmasters/tree/main/Testing_With_Cypress)
 - #### [Complete Intro to React & Intermediate React](https://github.com/villivald/frontendmasters/tree/main/React)
 - #### [Figma for Developers](https://github.com/villivald/frontendmasters/tree/main/Figma)
+- #### [Introducing DevOps for Developers](https://github.com/villivald/frontendmasters/tree/main/DevOps)
+- #### [Data Visualization First Steps](https://github.com/villivald/frontendmasters/tree/main/Data_Visualization)
