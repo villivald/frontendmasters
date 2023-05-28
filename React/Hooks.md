@@ -154,3 +154,40 @@ const App = () => {
   );
 };
 ```
+
+## useTransition
+
+```js
+import { useTransition } from "react";
+
+const App = () => {
+  const [isPending, startTransition] = useTransition();
+
+  return (
+    <>
+      <form
+        onSubmit={(event) => {
+          event.preventDefault();
+          const object = {
+            publisherName: form.publisherName,
+            publicationName: form.publicationName,
+            publicationSubTitle: form.publicationSubTitle,
+          };
+
+          startTransition(() => {
+            setRequestParams(object);
+          });
+        }}
+        </form>
+
+        {
+          isPending ? (
+            <div>Loading...</div>
+          ) : (
+            <button type="submit">Submit</button>
+          )
+        }
+    </form>
+  );
+};
+```
