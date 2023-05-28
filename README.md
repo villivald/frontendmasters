@@ -12,3 +12,4 @@
 - #### [Figma for Developers](https://github.com/villivald/frontendmasters/tree/main/Figma)
 - #### [Introducing DevOps for Developers](https://github.com/villivald/frontendmasters/tree/main/DevOps)
 - #### [Data Visualization First Steps](https://github.com/villivald/frontendmasters/tree/main/Data_Visualization)
+- #### [React and TypeScript](https://github.com/villivald/frontendmasters/tree/main/React_With_TypeScript)
