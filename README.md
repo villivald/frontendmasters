@@ -1,4 +1,4 @@
-[My profile at Frontend Masters](https://frontendmasters.com/u/villivald/)
+<img src="https://frontendmasters.com/static-assets/core/m-transparent.webp" width="24"/> [My profile at Frontend Masters](https://frontendmasters.com/u/villivald/)
 
 ## Frontend Masters course notes
 
