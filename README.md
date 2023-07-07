@@ -1,6 +1,6 @@
 <img src="https://frontendmasters.com/static-assets/core/m-transparent.webp" width="24"/> [My profile at Frontend Masters](https://frontendmasters.com/u/villivald/)
 
-## Frontend Masters course notes
+### Frontend Masters course notes
 
 - #### [A Tour of JavaScript & React Patterns](https://github.com/villivald/frontendmasters/tree/main/JavaScript_%26_React_Patterns)
 - #### [Web UX Design for High Converting Websites](https://github.com/villivald/frontendmasters/tree/main/Web_UX_Design)
@@ -15,3 +15,4 @@
 - #### [Introducing DevOps for Developers](https://github.com/villivald/frontendmasters/tree/main/DevOps)
 - #### [Data Visualization First Steps](https://github.com/villivald/frontendmasters/tree/main/Data_Visualization)
 - #### [React and TypeScript](https://github.com/villivald/frontendmasters/tree/main/React_With_TypeScript)
+- #### [Full Stack for Front-End Engineers](https://github.com/villivald/frontendmasters/tree/main/Full_Stack)
