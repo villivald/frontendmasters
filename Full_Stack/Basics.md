@@ -46,3 +46,14 @@ cat newKey // show private key
 
 ssh -i newKey root@HOST_ADDRESS // connect to host with private key
 ```
+
+## Network
+
+```zsh
+ping google.com
+traceroute google.com
+netstat -lt | less
+
+nslookup google.com
+dig google.com
+```
