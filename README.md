@@ -16,3 +16,4 @@
 - #### [Data Visualization First Steps](https://github.com/villivald/frontendmasters/tree/main/Data_Visualization)
 - #### [React and TypeScript](https://github.com/villivald/frontendmasters/tree/main/React_With_TypeScript)
 - #### [Full Stack for Front-End Engineers](https://github.com/villivald/frontendmasters/tree/main/Full_Stack)
+- #### [Web Authentication APIs](https://github.com/villivald/frontendmasters/tree/main/Web_Authentication)
