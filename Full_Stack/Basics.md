@@ -57,3 +57,20 @@ netstat -lt | less
 nslookup google.com
 dig google.com
 ```
+
+## User Management
+
+```zsh
+adduser username // add user
+usermod -aG sudo username // add user to sudo group
+su username // switch user
+sudo cat /var/log/auth.log // check logs - sudo access
+
+vim ~/.ssh/authorized_keys // add public key to authorized_keys file
+ssh username@HOST_ADDRESS // connect to host with public key
+
+chmod 644 ~/.ssh/authorized_keys // change permissions
+sudo vim /etc/ssh/sshd_config // disable root login
+  // PermitRootLogin no
+sudo service sshd restart // restart ssh daemon
+```
