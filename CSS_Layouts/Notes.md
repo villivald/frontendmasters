@@ -22,11 +22,14 @@ body {
   font-size: var(--base-size);
 }
 
-h1 {
+h1,
+.h1 {
+  /* .h1 class can be used to style any element as h1 */
   font-size: var(--h1);
 }
 
-h2 {
+h2,
+.h2 {
   font-size: var(--h2);
 }
 
@@ -44,9 +47,16 @@ img {
 }
 ```
 
-## Markup
-
 ```html
+<picture>
+  <source srcset="https://some.pic/large.webp" media="(min-width: 1200px)" />
+  <source srcset="https://some.pic/medium.webp" media="(min-width: 800px)" />
+  <img src="https://some.pic/small.webp" alt="Description" />
+</picture>
+```
+
+## Semantic markup
+
 <div class="wrapper">
   <main>
     <h1>Heading</h1>
@@ -73,11 +83,14 @@ img {
     <address>New York, NY 10012</address>
   </footer>
 </div>
-```
+````
 
 ## Layers
 
 ```css
+/* The latest is more specific */
+@layer base, header;
+
 @layer base {
   /* ... */
 }
@@ -86,3 +99,7 @@ img {
   /* ... */
 }
 ```
+
+# Margins vs Paddings
+
+- Margins collapse, paddings don't 👨🏻‍🔬
