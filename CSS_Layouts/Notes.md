@@ -103,3 +103,41 @@ img {
 # Margins vs Paddings
 
 - Margins collapse, paddings don't 👨🏻‍🔬
+
+# Table
+
+```html
+<table>
+  <!-- Caption should be used in the table for accessibility reasons -->
+  <caption>
+    This is a descriptive caption that describes the table content and purpose
+  </caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table>
+```
+
+```css
+table {
+  border-collapse: collapse; /* Remove redundant space between table cells */
+}
+
+caption {
+  visibility: collapse; /* Hide the caption visually, but keep it for screen readers */
+}
+
+th {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+```
