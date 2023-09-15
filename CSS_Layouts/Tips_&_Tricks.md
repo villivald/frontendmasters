@@ -57,6 +57,7 @@ img {
 
 ## Semantic markup
 
+```html
 <div class="wrapper">
   <main>
     <h1>Heading</h1>
@@ -83,7 +84,7 @@ img {
     <address>New York, NY 10012</address>
   </footer>
 </div>
-````
+```
 
 ## Layers
 
@@ -139,5 +140,34 @@ caption {
 th {
   text-align: left;
   border-bottom: 1px solid #ddd;
+}
+```
+
+# nth-of-type trick
+
+```css
+div:first-of-type,
+div.nth-of-type(1),
+div:nth-of-type(2),
+div:last-of-type {
+  /* ... */
+}
+
+/* is equivalent to */
+
+div:nth-of-type(n) {
+  /* ... */
+}
+```
+
+# unicode
+
+```css
+.hamburger::before {
+  content: "\2630";
+}
+
+.crossmark::before {
+  content: "\2715";
 }
 ```
