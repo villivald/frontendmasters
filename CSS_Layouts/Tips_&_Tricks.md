@@ -101,11 +101,11 @@ img {
 }
 ```
 
-# Margins vs Paddings
+## Margins vs Paddings
 
 - Margins collapse, paddings don't 👨🏻‍🔬
 
-# Table
+## Table
 
 ```html
 <table>
@@ -143,7 +143,7 @@ th {
 }
 ```
 
-# nth-of-type trick
+## nth-of-type trick
 
 ```css
 div:first-of-type,
@@ -160,7 +160,7 @@ div:nth-of-type(n) {
 }
 ```
 
-# unicode
+## unicode
 
 ```css
 .hamburger::before {
@@ -169,5 +169,21 @@ div:nth-of-type(n) {
 
 .crossmark::before {
   content: "\2715";
+}
+```
+
+## pseudo-elements vs pseudo-classes
+
+```css
+/* Pseudo-elements - double colon */
+::before,
+::after {
+  /* ... */
+}
+
+/* Pseudo-classes - single colon */
+:active,
+:hover {
+  /* ... */
 }
 ```
