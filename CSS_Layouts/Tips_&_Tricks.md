@@ -187,3 +187,30 @@ div:nth-of-type(n) {
   /* ... */
 }
 ```
+
+## Scroll bars
+
+In Chrome and Safari
+
+```css
+.tracklist::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.tracklist::-webkit-scrollbar-track {
+  background-color: peru;
+}
+
+.tracklist::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 0 0.5rem red;
+}
+```
+
+In Firefox
+
+```css
+html {
+  scrollbar-color: red peru;
+  scrollbar-width: thin;
+}
+```
