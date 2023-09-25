@@ -17,3 +17,5 @@
 - #### [React and TypeScript](https://github.com/villivald/frontendmasters/tree/main/React_With_TypeScript)
 - #### [Full Stack for Front-End Engineers](https://github.com/villivald/frontendmasters/tree/main/Full_Stack)
 - #### [Web Authentication APIs](https://github.com/villivald/frontendmasters/tree/main/Web_Authentication)
+- #### [Practical CSS Layouts](https://github.com/villivald/frontendmasters/tree/main/CSS_Layouts)
+- #### [Advanced Web Development Quiz](https://github.com/villivald/frontendmasters/tree/main/WebDev_Quiz)
