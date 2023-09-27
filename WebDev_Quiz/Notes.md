@@ -29,3 +29,15 @@
 
 5. Cache directives
    ![Cache directives](./images/cache.png)
+
+6. Garbage collection, WeakMap & WeakSet
+
+   - Garbage collection in JS happens automatically.
+   - WeakMap & WeakSet allows garbage collection to happen. If you use Map or Set, the garbage collection will not happen because the reference to the object is still there.
+   - https://javascript.info/weakmap-weakset
+
+7. Web vitals
+   ![Web vitals](./images/vitals.png)
+
+8. Content Security Policy
+   ![Content Security Policy](./images/csp.png)
