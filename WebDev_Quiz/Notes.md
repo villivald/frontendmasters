@@ -41,3 +41,6 @@
 
 8. Content Security Policy
    ![Content Security Policy](./images/csp.png)
+
+9. Font loading strategies
+   ![Font loading strategies](./images/font_loading.png)
