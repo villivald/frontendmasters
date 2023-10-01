@@ -8,12 +8,13 @@
      ![Defer script loading](./images/defer_script.png)
 
 2. Rendering pipeline & Compositing
+
    Dom & CSSOM -> Render Tree -> Layout -> Paint -> Composite
 
-3. Resolving domain request
+4. Resolving domain request
    ![Resolving domain request](./images/domain_request.png)
 
-4. Resource loading
+5. Resource loading
    ![Resource loading](./images/resource.png)
 
    - Normal network resource loading:
@@ -27,20 +28,20 @@
    - Preloading:
      Browser will also download the resource as soon as possible, but execute it as soon as it's downloaded. It will be stored in the cache and will be executed when the browser thinks it's the right time.
 
-5. Cache directives
+6. Cache directives
    ![Cache directives](./images/cache.png)
 
-6. Garbage collection, WeakMap & WeakSet
+7. Garbage collection, WeakMap & WeakSet
 
    - Garbage collection in JS happens automatically.
    - WeakMap & WeakSet allows garbage collection to happen. If you use Map or Set, the garbage collection will not happen because the reference to the object is still there.
    - https://javascript.info/weakmap-weakset
 
-7. Web vitals
+8. Web vitals
    ![Web vitals](./images/vitals.png)
 
-8. Content Security Policy
+9. Content Security Policy
    ![Content Security Policy](./images/csp.png)
 
-9. Font loading strategies
+10. Font loading strategies
    ![Font loading strategies](./images/font_loading.png)
