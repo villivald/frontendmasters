@@ -31,3 +31,15 @@ Group binding
   </select>
 </label>
 ```
+
+Contenteditable binding
+
+```html
+<script>
+  let html = "<p>hello world</p>";
+</script>
+
+<div bind:innerHTML="{html}" contenteditable />
+
+<pre>{html}</pre>
+```
