@@ -7,7 +7,11 @@
 
 <Card>
   <span> xxx </span>
+
+  {#if $$slots.header}
   <span slot="header">Header</span>
+  {/if}
+
   <span slot="footer">Footer</span>
 
   <!-- Slot with props -->
