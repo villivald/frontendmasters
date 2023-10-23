@@ -43,6 +43,34 @@
 
 ![Virtual Keyboard API - example](./images/keyboard.png)
 
-### Gamepad
+### Gamepad & WebHID API
 
 ![Gamepad API - example](./images/gamepad.png)
+
+![WebHID API - example](./images/hid.png)
+
+### Speech Recognition
+
+![Speech Recognition API - example](./images/speech.png)
+
+### Speech Synthesis
+
+![Speech Synthesis API - example](./images/synthesis.png)
+
+### Shape & Face Detection
+
+Currently only supported on Android
+
+```js
+const barCode = new BarcodeDetector();
+const face = new FaceDetector();
+const text = new TextDetector();
+
+const barCodeResults = await barCode.detect(image);
+const faceResults = await face.detect(image);
+const textResults = await text.detect(image);
+
+console.log(barCodeResults);
+console.log(faceResults);
+console.log(textResults);
+```
