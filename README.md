@@ -19,3 +19,5 @@
 - #### [Web Authentication APIs](https://github.com/villivald/frontendmasters/tree/main/Web_Authentication)
 - #### [Practical CSS Layouts](https://github.com/villivald/frontendmasters/tree/main/CSS_Layouts)
 - #### [Advanced Web Development Quiz](https://github.com/villivald/frontendmasters/tree/main/WebDev_Quiz)
+- #### [Svelte Fundamentals & Fullstack Svelte with SvelteKit](https://github.com/villivald/frontendmasters/tree/main/Svelte)
+- #### [A Tour of Web Capabilities](https://github.com/villivald/frontendmasters/tree/main/Web_APIs)
