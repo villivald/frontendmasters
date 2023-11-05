@@ -74,3 +74,19 @@ console.log(barCodeResults);
 console.log(faceResults);
 console.log(textResults);
 ```
+
+### External Hardware & Devices
+
+- Web Bluetooth API (chrome)
+- Web Audio & Web MIDI
+- Web Serial & Web USB
+- Vibration (chrome + android), Battery Status (chrome, edge, opera) & Idle Detection
+- Web NFC (chrome)
+
+### OS Integration
+
+- PWA
+- Multi-Screen Windows Placement, Windows Controls Overlay
+- File & URL Protocol Handler
+- Web Share
+- Smart App Banner
