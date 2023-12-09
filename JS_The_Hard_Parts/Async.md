@@ -39,5 +39,5 @@ console.log("Me first!");
 // Promise {value: ..., onfulfilled: []}
 // Me first!
 // Promise {value: Response, onfulfilled: [display(Response)]}
-// Twet content
+// Tweet content
 ```
