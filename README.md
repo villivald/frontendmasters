@@ -21,3 +21,5 @@
 - #### [Advanced Web Development Quiz](https://github.com/villivald/frontendmasters/tree/main/WebDev_Quiz)
 - #### [Svelte Fundamentals & Fullstack Svelte with SvelteKit](https://github.com/villivald/frontendmasters/tree/main/Svelte)
 - #### [A Tour of Web Capabilities](https://github.com/villivald/frontendmasters/tree/main/Web_APIs)
+- ### [JavaScript: The Hard Parts](https://github.com/villivald/frontendmasters/tree/main/JS_The_Hard_Parts)
+- ### [The Hard Parts of UI Development](https://github.com/villivald/frontendmasters/tree/main/UI_The_Hard_Parts)
