@@ -13,3 +13,5 @@ Webcore is a part of Webkit. It is a C++ engine that parses HTML and CSS and cre
 Interface description language for web APIs.
 
 ![JavaScript, the DOM, Events & Handlers](./images/js_dom_events.png)
+
+## Data Binding
