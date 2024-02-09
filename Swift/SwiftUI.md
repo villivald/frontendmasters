@@ -64,3 +64,6 @@ struct Greeting: View {
     }
 }
 ```
+
+![SwiftUI - Main Concepts]("./images/mainConcepts.png")
+![SwiftUI - Basic Views]("./images/views.png")
