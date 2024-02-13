@@ -22,9 +22,9 @@ struct OrderPage: View {
                        List {
                            Section("ITEMS") {
                                ForEach(cartManager.cart, id:\.0.id) { item in
-                                   OrderItem()
+                                   OrderItem(item: item)
                                }
-                           }.listRowBackground(Color("Background"))
+                           }.listRowBackground(Color("CardBackground"))
                                                
                            Section("YOUR DETAILS") {
                                VStack {
@@ -36,13 +36,14 @@ struct OrderPage: View {
                                        .textFieldStyle(.roundedBorder)
                                }.padding(.top)
                                 .padding(.bottom)
-                           }.listRowBackground(Color("Background"))
+                           }.listRowBackground(Color("CardBackground"))
                            
                            Section() {
                                HStack {
                                    Spacer()
                                    Text("Total")
                                    Spacer()
+                                   Text("$\(cartManager.total(), specifier: "%.2f")").bold()
                                    Spacer()
                                }
                            }.listRowBackground(Color.clear)

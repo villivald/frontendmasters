@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct MenuPage: View {
+    @EnvironmentObject var menuManager: MenuManager
+    
     var body: some View {
         NavigationView {
             List {
-                ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
-                    NavigationLink {
-                        DetailsPage()
-                    } label: {
-                        ProductItem(product: Product(id: 1, name: "Some product", price: 1.25, image: ""))
+                ForEach(menuManager.menu) { category in
+                    Text(category.name)
+                    
+                    ForEach(category.products) { product in
+                        NavigationLink {
+                            DetailsPage(product: product)
+                        } label: {
+                            ProductItem(product: product)
+                        }
                     }
                 }
             }.navigationTitle("Products")
@@ -25,4 +31,5 @@ struct MenuPage: View {
 
 #Preview {
     MenuPage()
+        .environmentObject(MenuManager())
 }
