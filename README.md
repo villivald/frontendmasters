@@ -1,25 +1,34 @@
 <img src="https://frontendmasters.com/static-assets/core/m-transparent.webp" width="24"/> [My profile at Frontend Masters](https://frontendmasters.com/u/villivald/)
 
-### Frontend Masters course notes
+## Frontend Masters course notes
 
-- #### [A Tour of JavaScript & React Patterns](https://github.com/villivald/frontendmasters/tree/main/JavaScript_%26_React_Patterns)
+### Design
 - #### [Web UX Design for High Converting Websites](https://github.com/villivald/frontendmasters/tree/main/Web_UX_Design)
-- #### [CSS Animations](https://github.com/villivald/frontendmasters/tree/main/CSS_Animations)
 - #### [Mastering the Design Process](https://github.com/villivald/frontendmasters/tree/main/Design_Process)
 - #### [Design Systems with React & Storybook](https://github.com/villivald/frontendmasters/tree/main/DesignSystems_Storybook)
-- #### [Complete Intro to SQL & PostgreSQL](https://github.com/villivald/frontendmasters/tree/main/SQL_PostgreSQL)
+- #### [Figma for Developers](https://github.com/villivald/frontendmasters/tree/main/Figma)
+### Web
+- #### [Complete Intro to React & Intermediate React](https://github.com/villivald/frontendmasters/tree/main/React)
+- #### [Svelte Fundamentals & Fullstack Svelte with SvelteKit](https://github.com/villivald/frontendmasters/tree/main/Svelte)
+- #### [Web Authentication APIs](https://github.com/villivald/frontendmasters/tree/main/Web_Authentication)
+- #### [Advanced Web Development Quiz](https://github.com/villivald/frontendmasters/tree/main/WebDev_Quiz)
+- #### [A Tour of Web Capabilities](https://github.com/villivald/frontendmasters/tree/main/Web_APIs)
+- #### [The Hard Parts of UI Development](https://github.com/villivald/frontendmasters/tree/main/UI_The_Hard_Parts)
 - #### [Responsive Web Typography](https://github.com/villivald/frontendmasters/tree/main/Typography)
 - #### [Testing Web Apps with Cypress](https://github.com/villivald/frontendmasters/tree/main/Testing_With_Cypress)
-- #### [Complete Intro to React & Intermediate React](https://github.com/villivald/frontendmasters/tree/main/React)
-- #### [Figma for Developers](https://github.com/villivald/frontendmasters/tree/main/Figma)
-- #### [Introducing DevOps for Developers](https://github.com/villivald/frontendmasters/tree/main/DevOps)
 - #### [Data Visualization First Steps](https://github.com/villivald/frontendmasters/tree/main/Data_Visualization)
-- #### [React and TypeScript](https://github.com/villivald/frontendmasters/tree/main/React_With_TypeScript)
-- #### [Full Stack for Front-End Engineers](https://github.com/villivald/frontendmasters/tree/main/Full_Stack)
-- #### [Web Authentication APIs](https://github.com/villivald/frontendmasters/tree/main/Web_Authentication)
-- #### [Practical CSS Layouts](https://github.com/villivald/frontendmasters/tree/main/CSS_Layouts)
-- #### [Advanced Web Development Quiz](https://github.com/villivald/frontendmasters/tree/main/WebDev_Quiz)
-- #### [Svelte Fundamentals & Fullstack Svelte with SvelteKit](https://github.com/villivald/frontendmasters/tree/main/Svelte)
-- #### [A Tour of Web Capabilities](https://github.com/villivald/frontendmasters/tree/main/Web_APIs)
+### Javascript
+- #### [A Tour of JavaScript & React Patterns](https://github.com/villivald/frontendmasters/tree/main/JavaScript_%26_React_Patterns)
 - #### [JavaScript: The Hard Parts](https://github.com/villivald/frontendmasters/tree/main/JS_The_Hard_Parts)
-- #### [The Hard Parts of UI Development](https://github.com/villivald/frontendmasters/tree/main/UI_The_Hard_Parts)
+### Typescript
+- #### [React and TypeScript](https://github.com/villivald/frontendmasters/tree/main/React_With_TypeScript)
+- #### [TypeScript Fundamentals, Intermediate TypeScript and Enterprise TypeScript](https://github.com/villivald/frontendmasters/tree/main/Typescript)
+### CSS
+- #### [CSS Animations](https://github.com/villivald/frontendmasters/tree/main/CSS_Animations)
+- #### [Practical CSS Layouts](https://github.com/villivald/frontendmasters/tree/main/CSS_Layouts)
+### Mobile
+- #### [iOS App Development with Swift](https://github.com/villivald/frontendmasters/tree/main/Swift)
+### Full Stack
+- #### [Complete Intro to SQL & PostgreSQL](https://github.com/villivald/frontendmasters/tree/main/SQL_PostgreSQL)
+- #### [Introducing DevOps for Developers](https://github.com/villivald/frontendmasters/tree/main/DevOps)
+- #### [Full Stack for Front-End Engineers](https://github.com/villivald/frontendmasters/tree/main/Full_Stack)
