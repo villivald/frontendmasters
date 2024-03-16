@@ -15,8 +15,9 @@
 - #### [A Tour of Web Capabilities](https://github.com/villivald/frontendmasters/tree/main/Web_APIs)
 - #### [The Hard Parts of UI Development](https://github.com/villivald/frontendmasters/tree/main/UI_The_Hard_Parts)
 - #### [Responsive Web Typography](https://github.com/villivald/frontendmasters/tree/main/Typography)
-- #### [Testing Web Apps with Cypress](https://github.com/villivald/frontendmasters/tree/main/Testing_With_Cypress)
 - #### [Data Visualization First Steps](https://github.com/villivald/frontendmasters/tree/main/Data_Visualization)
+### Testing
+- #### [Testing Web Apps with Cypress](https://github.com/villivald/frontendmasters/tree/main/Testing_With_Cypress)
 ### Javascript
 - #### [A Tour of JavaScript & React Patterns](https://github.com/villivald/frontendmasters/tree/main/JavaScript_%26_React_Patterns)
 - #### [JavaScript: The Hard Parts](https://github.com/villivald/frontendmasters/tree/main/JS_The_Hard_Parts)
@@ -26,6 +27,8 @@
 ### CSS
 - #### [CSS Animations](https://github.com/villivald/frontendmasters/tree/main/CSS_Animations)
 - #### [Practical CSS Layouts](https://github.com/villivald/frontendmasters/tree/main/CSS_Layouts)
+### Accessibility
+- #### [Web App Accessibility & Enterprise Web App Accessibility](https://github.com/villivald/frontendmasters/tree/main/Accessibility)
 ### Mobile
 - #### [iOS App Development with Swift](https://github.com/villivald/frontendmasters/tree/main/Swift)
 ### Full Stack
