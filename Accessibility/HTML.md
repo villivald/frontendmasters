@@ -37,3 +37,9 @@
   </body>
 </html>
 ```
+
+### Hiding Content
+
+- `inert` attribute can be used to [ignore](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inert) content in browser
+- `hidden` attribute can be used to hide content completely
+- `aria-hidden` attribute can be used to hide content from screen readers
