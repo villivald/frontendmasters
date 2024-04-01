@@ -32,6 +32,7 @@
 ### Mobile
 - #### [iOS App Development with Swift](https://github.com/villivald/frontendmasters/tree/main/Swift)
 ### Full Stack
+- #### [Complete Intro to Databases](https://github.com/villivald/frontendmasters/tree/main/Databases)
 - #### [Complete Intro to SQL & PostgreSQL](https://github.com/villivald/frontendmasters/tree/main/SQL_PostgreSQL)
 - #### [Introducing DevOps for Developers](https://github.com/villivald/frontendmasters/tree/main/DevOps)
 - #### [Full Stack for Front-End Engineers](https://github.com/villivald/frontendmasters/tree/main/Full_Stack)
