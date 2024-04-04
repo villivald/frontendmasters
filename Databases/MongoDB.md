@@ -119,3 +119,96 @@ db.pets.find({type: "dog"}).sort({age: 1, breed: -1}).limit(5); # Sort ascending
 db.pets.find({ type: "dog"}, {name: 1}).limit(5); # Projection - show only name
 db.pets.find({ type: "dog"}, {_id: 0}).limit(5); # Projection - show everything except _id
 ```
+
+## Update
+
+```zsh
+# Update db entry with a new data
+db.pets.updateOne(
+  {type: "dog", name: "Luna", breed: "Havanese"},
+  {$set: {owner: "Brian Holt"}}
+);
+
+# Update a few entries
+db.pets.updateMany( {type: "dog"}, { $inc: {age: 1} } ); # increment an age
+db.pets.updateMany( { type: "dog" }, { $rename: { breed: "model" } } ); # rename a field: breed -> model
+db.pets.updateMany( { type: "dog" }, { $unset: { age: "" } } ); # remove an age field
+
+# Upsert - insert if not found
+db.pets.updateOne(
+  { type: "dog", name: "Sudo", breed: "Wheaten" },
+  { $set:
+    { type: "dog", name: "Sudo", breed: "Wheaten", age: 5, index: 2000, owner: "Sarah Drasner" }
+  },
+  {upsert: true }
+);
+
+```
+
+## Delete
+
+```zsh
+# Remove a few entries from db
+db.pets.deleteMany({type: "reptile", breed: "Havanese"});
+
+# Remove single entry
+db.pets.findOneAndDelete({name: "Fido", type: "reptile"});
+```
+
+## Indexes
+
+```zsh
+db.pets.find({name: "Fido"}).explain("executionStats");
+# COLLSCAN (slow) - totalDocsExamined: 9643
+
+db.pets.createIndex({name: 1}); # Create an index
+db.pets.find({name: "Fido"}).explain("executionStats");
+# FETCH (fast) - totalDocsExamined: 1070
+
+# Get all indexes
+db.pets.getIndexes();
+```
+
+## Full text search
+
+```zsh
+# Create a text index on multiple fields
+db.pets.createIndex({type: "text", breed: "text", name: "text"});
+
+# Find all that have one of query items
+db.pets.find({ $text: { $search: "dog Havanese Luna" } } );
+
+# Find and sort by text match
+db.pets.find(
+  { $text: { $search: "bird Havanese Fido" } },
+  { score: { $meta: "textScore"} }
+).sort( {score: {$meta: "textScore"} } );
+```
+
+## Aggregation
+
+```zsh
+# Group by age and sort by amount
+db.pets.aggregate([
+  {
+    $match: {
+      type: "cat", # find all cats
+    },
+  },
+  {
+    $bucket: {
+      groupBy: "$age", # group by age
+      boundaries: [0, 3, 9, 15], # split into three categories
+      default: "very senior", # base case
+      output: {
+        count: { $sum: 1 }, # count
+      },
+    },
+  },
+  {
+    $sort: {
+      count: -1, # sort by amount
+    },
+  },
+]);
+```
