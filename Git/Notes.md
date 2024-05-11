@@ -3,6 +3,9 @@
 ```zsh
 # Print the content of a commit
 git cat-file -p <SHA>
+
+# Search for a commit that contains a specific string ("mongo") and print the changes
+git log -S mongo -p
 ```
 
 ## Git config
@@ -30,6 +33,8 @@ git checkout -b <branch> # Create a new branch and switch to it
 git rebase <anotherBranch> # Rebase the current branch on top of the branch
 
 git rebase -i HEAD~3 # Rebase the last 3 commits interactively
+
+git config --add rerere.enabled true # Enable the reuse recorded resolution
 ```
 
 ## Reflog
@@ -52,4 +57,14 @@ git cherry-pick <SHA> # Apply the changes of a previously removed commit to the 
 git init
 git remote add origin <url> # Add a remote repository
 git remote -v # List the remote repositories
+```
+
+## Stash
+
+```zsh
+git stash # Stash the current changes
+git stash -m "Message" # Stash the current changes with a message
+git stash list # List the stashes
+git stash pop # Apply the last stash
+git stash pop --index 3 # Apply the stash with index 3
 ```
