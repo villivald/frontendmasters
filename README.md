@@ -36,3 +36,4 @@
 - #### [Complete Intro to SQL & PostgreSQL](https://github.com/villivald/frontendmasters/tree/main/SQL_PostgreSQL)
 - #### [Introducing DevOps for Developers](https://github.com/villivald/frontendmasters/tree/main/DevOps)
 - #### [Full Stack for Front-End Engineers](https://github.com/villivald/frontendmasters/tree/main/Full_Stack)
+- #### [Everything You'll Need to Know About Git](https://github.com/villivald/frontendmasters/tree/main/Git)
