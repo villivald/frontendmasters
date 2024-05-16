@@ -68,3 +68,21 @@ git stash list # List the stashes
 git stash pop # Apply the last stash
 git stash pop --index 3 # Apply the stash with index 3
 ```
+
+## Tools & Techniques
+
+```zsh
+git log --grep foo -p # Search for specific info and show changes
+
+git log -p -- index.js # Show the changes for a file
+
+git revert SHA # Undo specific change with a clean history (and a new revert commit) - can be undone with reflog
+
+git reset --soft HEAD~1 # Undo the commit but preserve the changes
+
+git reset --hard HEAD~1 # Undo the commit and removes the changes
+```
+
+![Bisect](./images/bisect.png)
+
+![Tags](./images/tags.png)
