@@ -72,17 +72,26 @@ git stash pop --index 3 # Apply the stash with index 3
 ## Tools & Techniques
 
 ```zsh
-git log --grep foo -p # Search for specific info and show changes
+git log --grep foo -p # Show the changes of the commits that contain the word "foo"
 
-git log -p -- index.js # Show the changes for a file
+git log -p -- index.js # Show the changes of a specific file
 
 git revert SHA # Undo specific change with a clean history (and a new revert commit) - can be undone with reflog
 
 git reset --soft HEAD~1 # Undo the commit but preserve the changes
 
-git reset --hard HEAD~1 # Undo the commit and removes the changes
+git reset --hard HEAD~1 # Undo the commit and discard the changes
 ```
 
 ![Bisect](./images/bisect.png)
 
 ![Tags](./images/tags.png)
+
+## Confusing terminology
+
+[Explained by Julia Evans](https://jvns.ca/blog/2023/11/01/confusing-git-terminology/?_hsmi=86684479)
+
+HEAD - current branch, stored in .git/HEAD
+HEAD^ and HEAD~ are the same thing - 1 commit ago
+HEAD^^^ and HEAD~~~ and HEAD~3 are also the same thing - 3 commits ago
+However HEAD^3 is different - it's the 3rd parent of the current commit
