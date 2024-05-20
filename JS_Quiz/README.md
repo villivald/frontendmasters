@@ -1,0 +1,1 @@
+Notes for the course [Test Your JavaScript Knowledge](https://frontendmasters.com/courses/javascript-quiz/) by [Lydia Hallie](https://frontendmasters.com/teachers/lydia-hallie/).
