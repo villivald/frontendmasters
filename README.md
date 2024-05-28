@@ -21,6 +21,7 @@
 ### Javascript
 - #### [A Tour of JavaScript & React Patterns](https://github.com/villivald/frontendmasters/tree/main/JavaScript_%26_React_Patterns)
 - #### [JavaScript: The Hard Parts](https://github.com/villivald/frontendmasters/tree/main/JS_The_Hard_Parts)
+- #### [Test Your JavaScript Knowledge](https://github.com/villivald/frontendmasters/tree/main/JS_Quiz)
 ### Typescript
 - #### [React and TypeScript](https://github.com/villivald/frontendmasters/tree/main/React_With_TypeScript)
 - #### [TypeScript Fundamentals, Intermediate TypeScript and Enterprise TypeScript](https://github.com/villivald/frontendmasters/tree/main/Typescript)
