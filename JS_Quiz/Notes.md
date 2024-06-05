@@ -15,7 +15,10 @@ The order of execution:
 
 - Function envocation creates a new lexical environment.
 - Variable persists in memory until the closure is destroyed.
-- Hoisting in JS is the process of moving function and variable declarations to the top of the scope. Variables declared with `let` and `const` are hoisted but not initialized.
+- Hoisting in JS is the process of moving function and variable declarations to the top of the scope.
+  - Variables declared with `let` and `const` are hoisted but not initialized.
+  - Variables declared with `var` are hoisted and initialized with `undefined`.
+  - Function declarations are hoisted and initialized with the function itself (except arrow functions).
 
 ## this
 
@@ -28,12 +31,36 @@ The order of execution:
 
 ## Classes & Prototypes
 
+- Creating a new class instance does not create a new copy of the methods.
+- Constructors of instances of the same class share the same prototype.
+- Static methods are called on the class itself, not on the instances.
+
 ## Generators & Iterators
 
-## Garbage Collection
+![Generator](./images/generator.png)
 
 ## Modules
 
+![Modules](./images/modules.png)
+
+![Import vs Require](./images/import.png)
+
 ## Numbers
 
+- `number++` - post-increment (returns the value before incrementing, but increments the value)
+- `++number` - pre-increment (returns the value after incrementing)
+
 ## Misc
+
+- Freezing an object makes it immutable. However, it only freezes the direct properties of the object, not the nested objects (shallow freeze).
+- Splice modifies the original array, while slice, concat, and spread operator create a new array.
+- Using of `delete` operator on an array does not change the length of the array. It removes the value of an element but an empty slot remains.
+
+Operators
+![Operators](./images/operators.png)
+
+Dates
+![Dates](./images/dates.png)
+
+Symbols
+![Symbols](./images/symbols.png)
