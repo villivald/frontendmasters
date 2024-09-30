@@ -1,0 +1,1 @@
+Notes for the course [Software Developer Success: Soft Skills & Testing](https://frontendmasters.com/courses/dev-soft-skills/) by [Francesca Sadikin](https://frontendmasters.com/teachers/francesca-sadikin/).
