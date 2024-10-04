@@ -16,6 +16,7 @@
 - #### [The Hard Parts of UI Development](https://github.com/villivald/frontendmasters/tree/main/UI_The_Hard_Parts)
 - #### [Responsive Web Typography](https://github.com/villivald/frontendmasters/tree/main/Typography)
 - #### [Data Visualization First Steps](https://github.com/villivald/frontendmasters/tree/main/Data_Visualization)
+- #### [Front-End System Design ](https://github.com/villivald/frontendmasters/tree/main/Frontend_System_Design)
 ### Testing
 - #### [Testing Web Apps with Cypress](https://github.com/villivald/frontendmasters/tree/main/Testing_With_Cypress)
 ### Javascript
@@ -38,3 +39,6 @@
 - #### [Introducing DevOps for Developers](https://github.com/villivald/frontendmasters/tree/main/DevOps)
 - #### [Full Stack for Front-End Engineers](https://github.com/villivald/frontendmasters/tree/main/Full_Stack)
 - #### [Everything You'll Need to Know About Git](https://github.com/villivald/frontendmasters/tree/main/Git)
+### Other
+- #### [Software Developer Success: Soft Skills & Testing](https://github.com/villivald/frontendmasters/tree/main/Soft_Skills)
+- #### [Machine Learning in JavaScript with TensorFlow.js](https://github.com/villivald/frontendmasters/tree/main/Tensorflow)
