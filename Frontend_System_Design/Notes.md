@@ -28,3 +28,36 @@ Observer API:
 ![Mutation Observer](./images/mutation_observer.png)
 ![Resize Observer](./images/resize_observer.png)
 ![Resize vs other options](./images/resize_vs_other_options.png)
+
+Application state:
+
+- Every field in the data object should be atomic, e.g
+
+  ```javascript
+  {
+    id: 1,
+    name: 'John',
+    age: 25,
+    job_id: "XYZ",
+    job_title: "Software Engineer"
+    job_description: "Developing software"
+    }
+
+    // instead of
+
+    {
+      id: 1,
+      name: 'John',
+      age: 25,
+      job: {
+        id: "XYZ",
+        title: "Software Engineer",
+        description: "Developing software"
+      }
+    }
+  ```
+
+- Data has primary keys
+- Non-primary keys depend on entity primary keys
+
+![Storage options](./images/types_of_storage.png)
