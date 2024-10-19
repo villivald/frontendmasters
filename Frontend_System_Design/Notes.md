@@ -21,3 +21,10 @@ DOM Querying:
 - querySelectorAll O(n) - potentially high-memory overhead
 
 ![Best practices regarding query selectors performance](./images/css_query_performance.png)
+
+Observer API:
+
+![Intersection Observer](./images/intersection_observer.png)
+![Mutation Observer](./images/mutation_observer.png)
+![Resize Observer](./images/resize_observer.png)
+![Resize vs other options](./images/resize_vs_other_options.png)
