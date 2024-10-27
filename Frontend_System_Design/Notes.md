@@ -61,3 +61,9 @@ Application state:
 - Non-primary keys depend on entity primary keys
 
 ![Storage options](./images/types_of_storage.png)
+
+Optimization:
+
+![Image assets optimization](./images/image_assets.png)
+![Font loading strategies](./images/font_loading.png)
+![Optimization diagram](./images/optimization.png)
