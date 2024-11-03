@@ -11,3 +11,14 @@
 - Surfacing your accomplishments
   - Brag doc - keep track of your progress
 - Opportunities -> building relationships (trust)
+
+## Communication
+
+- Active listening
+  ![active listening](./images/active_listening.png)
+- Mirroring
+- Label emotions
+
+## TDD
+
+![tdd](./images/tdd.png)
