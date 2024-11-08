@@ -22,3 +22,10 @@
 ## TDD
 
 ![tdd](./images/tdd.png)
+
+- Code changing is safer, solutions are more robust, and the code is more maintainable
+- Should be integrated into the development process
+- Common pitfalls - done as an afterthought, testing the wrong thing, overly concerned with code coverage
+- VS Code Debugger vs console.log
+
+![debugging process](./images/debugging.png)
