@@ -35,8 +35,8 @@ function App() {
     <StrictMode>
       <QueryClientProvider client={queryClient}>
         {/* <RouterProvider> */}
-          <p>{data.name}</p>
-          <p>{data.email}</p>
+        <p>{data.name}</p>
+        <p>{data.email}</p>
         {/* </RouterProvider> */}
       </QueryClientProvider>
     </StrictMode>

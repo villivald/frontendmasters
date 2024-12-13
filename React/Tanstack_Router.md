@@ -7,28 +7,28 @@ npm install @tanstack/react-router
 npm install -D @tanstack/router-plugin @tanstack/router-devtools
 ```
 
-*vite.config.js*
+_vite.config.js_
 
 ```js
-import { defineConfig } from 'vite'
-import viteReact from '@vitejs/plugin-react'
-import { TanStackRouterVite } from '@tanstack/router-plugin/vite'
+import { defineConfig } from "vite";
+import viteReact from "@vitejs/plugin-react";
+import { TanStackRouterVite } from "@tanstack/router-plugin/vite";
 
 export default defineConfig({
   plugins: [
     TanStackRouterVite(),
     viteReact(),
     // ...,
-  ]
-})
+  ],
+});
 ```
 
-*src/routes/__root.jsx*
+_src/routes/\_\_root.jsx_
 
 ```jsx
-import { createRootRoute, Outlet } from '@tanstack/react-router'
-import { TanStackRouterDevtools } from '@tanstack/router-devtools'
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+import { createRootRoute, Outlet } from "@tanstack/react-router";
+import { TanStackRouterDevtools } from "@tanstack/router-devtools";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
 export const Route = createRootRoute({
   component: () => (
@@ -38,18 +38,18 @@ export const Route = createRootRoute({
       <TanStackRouterDevtools />
       <ReactQueryDevtools />
     </>
-  )
-})
+  ),
+});
 ```
 
-*src/routes/index.lazy.tsx*
+_src/routes/index.lazy.tsx_
 
 ```jsx
-import { createLazyFileRoute, Link } from '@tanstack/react-router'
+import { createLazyFileRoute, Link } from "@tanstack/react-router";
 
-export const Route = createLazyFileRoute('/')({
+export const Route = createLazyFileRoute("/")({
   component: Index,
-})
+});
 
 function Index() {
   return (
@@ -57,29 +57,29 @@ function Index() {
       <h3>🏠 Welcome to the home page</h3>
       <Link to="/myCustomRoute">Go to my custom route</Link>
     </div>
-  )
+  );
 }
 ```
 
-*src/routes/myCustomRoute.lazy.tsx*
+_src/routes/myCustomRoute.lazy.tsx_
 
 ```jsx
-import { createLazyFileRoute } from '@tanstack/react-router'
+import { createLazyFileRoute } from "@tanstack/react-router";
 
-export const Route = createLazyFileRoute('/myCustomRoute')({
+export const Route = createLazyFileRoute("/myCustomRoute")({
   component: MyCustomRoute,
-})
+});
 
 function MyCustomRoute() {
   return (
     <div>
       <h3>Hello, World!</h3>
     </div>
-  )
+  );
 }
 ```
 
-*src/main.jsx*
+_src/main.jsx_
 
 ```jsx
 import { StrictMode } from 'react'

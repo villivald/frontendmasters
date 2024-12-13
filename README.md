@@ -1,4 +1,7 @@
-<img src="https://frontendmasters.com/static-assets/core/m-transparent.webp" width="24"/> [My profile at Frontend Masters](https://frontendmasters.com/u/villivald/)
+<div style="display: flex; gap: 0.375rem; align-items: center">
+    <img src="https://frontendmasters.com/static-assets/core/m-transparent.webp" width="24" />
+    <a href="https://frontendmasters.com/u/villivald/">My profile at Frontend Masters</a>
+</div>
 
 ## Frontend Masters course notes
 
@@ -20,6 +23,7 @@
 - #### [Responsive Web Typography](https://github.com/villivald/frontendmasters/tree/main/Typography)
 - #### [Data Visualization First Steps](https://github.com/villivald/frontendmasters/tree/main/Data_Visualization)
 - #### [Front-End System Design ](https://github.com/villivald/frontendmasters/tree/main/Frontend_System_Design)
+- #### [Web Performance Fundamentals](https://github.com/villivald/frontendmasters/tree/main/Web_Performance)
 
 ### Testing
 
