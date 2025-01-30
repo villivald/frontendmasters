@@ -55,3 +55,12 @@ As a result:
 - how quickly the <u>first</u> content is rendered
   ![Loading sequence](./images/sequence.png)
   ![FCP](./images/fcp.png)
+
+### Measuring
+
+Measuring with web-vitals library<br>
+[Github repo](https://github.com/GoogleChrome/web-vitals)
+![Measuring](./images/web-vitals.png)
+
+Compatibility in different browsers (Chrome/Safari/Firefox)
+![Measuring](./images/compatibility.png)
